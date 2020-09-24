@@ -10,13 +10,13 @@
   $result = $query -> fetchAll();
 ?>
 <form action="ejemplo.php">
-  <p>Nombre: <input type="text" name="nombre"></p>
+  <p>Nombre: <input type="text" name="consulta manual"></p>
   <p><input type="submit" value="Enviar"></p>
 </form>
 
 
 <form action="consulta1.php" method="get">
-  <p>consulta 1</p>
+  <p>¿Sí o no?</p>
   <p>
     <input type="submit" name="respuesta" value="ir">
   </p>

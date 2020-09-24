@@ -8,7 +8,11 @@
   $query = $db -> prepare($query_string);
   $query -> execute();
   $result = $query -> fetchAll();
-  foreach ($result as $r) {
-    echo "<tr><td>$r[0]</td><</tr>";
-  }
 ?>
+<table>
+  <?php
+    foreach ($rsult as $r) {
+      echo "<tr><td>$r[0]</td><</tr>";
+    }
+  ?>
+</table>
