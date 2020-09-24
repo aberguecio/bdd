@@ -9,9 +9,11 @@
   $query -> execute();
   $result = $query -> fetchAll();
 ?>
+
+?>
 <table>
   <?php
-    foreach ($rsult as $r) {
+    foreach ($result as $r) {
       echo "<tr><td>$r[0]</td><</tr>";
     }
   ?>
