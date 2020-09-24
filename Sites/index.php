@@ -9,8 +9,8 @@
   $query -> execute();
   $result = $query -> fetchAll();
 ?>
-<form action="ejemplo.php">
-  <p>Nombre: <input type="text" name="consulta manual"></p>
+<form action="otras consultas.php">
+  <p>consulta manual: <input type="text" name="consulta"></p>
   <p><input type="submit" value="Enviar"></p>
 </form>
 
