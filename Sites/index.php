@@ -16,7 +16,7 @@
 
 
 <form action="consulta1.php" method="get">
-  <p>¿Sí o no?</p>
+  <p>Consulta 1</p>
   <p>
     <input type="submit" name="respuesta" value="ir">
   </p>
