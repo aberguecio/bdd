@@ -31,7 +31,7 @@
   <p>Consulta 5</p>
   <p><input type="submit" name="respuesta" value="ir"></p>
 </form>
-<form action="consulta5.php" method="get">
-  <p>Consulta 5</p>
+<form action="consulta6.php" method="get">
+  <p>Consulta 6</p>
   <p><input type="submit" name="respuesta" value="ir"></p>
 </form>
