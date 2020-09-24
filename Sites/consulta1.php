@@ -8,16 +8,7 @@
   $query = $db -> prepare($query_string);
   $query -> execute();
   $result = $query -> fetchAll();
+  foreach ($result as $r) {
+    echo "<tr><td>$r[0]</td><</tr>";
+  }
 ?>
-<form action="ejemplo.php">
-  <p>Nombre: <input type="text" name="nombre"></p>
-  <p><input type="submit" value="Enviar"></p>
-</form>
-
-
-<form action="consulta1.php" method="get">
-  <p>consulta 1</p>
-  <p>
-    <input type="submit" name="respuesta" value="ir">
-  </p>
-</form>
