@@ -1,6 +1,5 @@
 <?php
   require("config/conexion.php");
-
 ?>
 
 
@@ -17,26 +16,45 @@
 
 
   <?php
-  #Primero obtenemos todos los tipos de pokemones
-  require("config/conexion.php");
   $result = $db -> prepare("SELECT DISTINCT tipo_instalacion FROM Instalaciones;");
   $result -> execute();
   $dataCollected = $result -> fetchAll();
   ?>
-
   <form align="center" action="consultas/consulta3.php" method="post">
     Seleccinar un tipo:
     <select name="tipo">
       <?php
-      #Para cada tipo agregamos el tag <option value=value_of_param> visible_value </option>
       foreach ($dataCollected as $d) {
         echo "<option value=$d[0]>$d[0]</option>";
       }
       ?>
     </select>
-    <br><br>
     <input type="submit" value="Buscar por tipo">
   </form>
+
+
+
+  <?php
+  $result = $db -> prepare("SELECT DISTINCT ciudad_puerto FROM Puertos;");
+  $result -> execute();
+  $datapuertos = $result -> fetchAll();
+  ?>
+  <form align="center" action="consultas/consulta3.php" method="post">
+    Seleccinar un puerto:
+    <select name="puerto">
+      <?php
+      foreach ($datapuertos as $d) {
+        echo "<option value=$d[0]>$d[0]</option>";
+      }
+      ?>
+    </select>
+  </form>
+
+  <form align="center" action="consultas/consulta3.php" method="post">
+    Barco:
+    <input type="text" name="barco">
+    <input type="submit" value="Buscar">
+</form>
 
   
 
