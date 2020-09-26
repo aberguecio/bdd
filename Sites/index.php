@@ -4,8 +4,8 @@
 
 
 <form align="center" action="consultas/consulta1.php" method="get">
-  <p>Consulta 1</p>
-  <p><input type="submit" name="respuesta" value="ir"></p>
+  Consulta 1
+  <input type="submit" name="respuesta" value="ir">
 </form>
 
 <form align="center" action="consultas/consulta2.php" method="post">
@@ -48,7 +48,7 @@
       }
       ?>
     </select>
-    Barco:
+    y escribe el nombre del Barco:
     <input type="text" name="barco">
     <input type="submit" value="Buscar">
   </form>
@@ -58,10 +58,6 @@
   
 
 
-<form action="consultas/consulta4.php" method="get">
-  <p>Consulta 4</p>
-  <p><input type="submit" name="respuesta" value="ir"></p>
-</form>
 <form action="consultas/consulta5.php" method="get">
   <p>Consulta 5</p>
   <p><input type="submit" name="respuesta" value="ir"></p>
