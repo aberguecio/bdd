@@ -11,7 +11,7 @@
 <table>
   <?php
     foreach ($result as $r) {
-      echo "<tr><td>$r[0]</td><</tr>";
+      echo "<tr><td>$r[0] $r[1]</td><</tr>";
     }
   ?>
 </table>
