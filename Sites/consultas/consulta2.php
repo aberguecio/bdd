@@ -2,9 +2,9 @@
   require("../config/conexion.php");
 
   $nombre_puerto = ($_GET["nombre_puerto"]);
-  echo $nombre_puerto;
+  echo "1 $nombre_puerto";
   $nombre_puerto = $_POST["nombre_puerto"];
-  echo $nombre_puerto;
+  echo "2 $nombre_puerto";
 
   $query_string = "SELECT rut_jefe FROM Instalaciones WHERE nombre_puerto LIKE 'Mejillones'"; #'%$nombre_puerto%'
   $query = $db -> prepare($query_string);
