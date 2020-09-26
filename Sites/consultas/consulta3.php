@@ -9,7 +9,7 @@
   $result = $query -> fetchAll();
 ?>
 
-?>
+
 <table>
   <?php
     foreach ($result as $r) {
