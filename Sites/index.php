@@ -9,7 +9,15 @@
   <p>consulta manual: <input type="text" name="consulta"></p>
   <p><input type="submit" value="Enviar"></p>
 </form>
-
+<form align="center" action="consultas/consulta_tipo_nombre.php" method="post">
+    Tipo:
+    <input type="text" name="tipo_elegido">
+    <br/>
+    Nombre:
+    <input type="text" name="nombre_pokemon">
+    <br/><br/>
+    <input type="submit" value="Buscar">
+</form>
 
 <form action="consulta1.php" method="get">
   <p>Consulta 1</p>
