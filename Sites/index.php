@@ -39,7 +39,7 @@
   $result -> execute();
   $datapuertos = $result -> fetchAll();
   ?>
-  <form align="center" action="consultas/consulta3.php" method="post">
+  <form align="center" action="consultas/consulta4.php" method="post">
     Seleccinar un puerto:
     <select name="puerto">
       <?php
@@ -48,13 +48,12 @@
       }
       ?>
     </select>
-  </form>
-
-  <form align="center" action="consultas/consulta3.php" method="post">
     Barco:
     <input type="text" name="barco">
     <input type="submit" value="Buscar">
-</form>
+  </form>
+
+
 
   
 
