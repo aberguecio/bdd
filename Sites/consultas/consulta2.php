@@ -13,7 +13,6 @@
 <table>
   <p>$nombre_puerto</p>
   <?php
-  $nombre_puerto
     foreach ($result as $r) {
       echo "<tr><td>$r[0]</td><</tr>";
     }
