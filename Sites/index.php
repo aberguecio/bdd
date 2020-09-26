@@ -40,7 +40,7 @@
   $datapuertos = $result -> fetchAll();
   ?>
   <form align="center" action="consultas/consulta4.php" method="post">
-    Seleccinar un puerto:
+    Seleccina una Ciudad:
     <select name="puerto">
       <?php
       foreach ($datapuertos as $d) {
