@@ -1,7 +1,9 @@
 <?php
   require("../config/conexion.php");
 
-  $query_string = "SELECT DISTINCT  nombre_puerto FROM Instalaciones WHERE tipo_instalacion = 'astillero';";
+  $tipo = $_POST["tipo"];
+
+  $query_string = "SELECT DISTINCT  nombre_puerto FROM Instalaciones WHERE tipo_instalacion LIKE '%$tipo%';";
   $query = $db -> prepare($query_string);
   $query -> execute();
   $result = $query -> fetchAll();

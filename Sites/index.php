@@ -16,17 +16,15 @@
 </form>
 
 
-<h3 align="center">¿Quieres buscar todos los pokemones por tipo?</h3>
-
   <?php
   #Primero obtenemos todos los tipos de pokemones
   require("config/conexion.php");
-  $result = $db -> prepare("SELECT DISTINCT tipo FROM pokemones;");
+  $result = $db -> prepare("SELECT DISTINCT tipo_instalacion FROM Instalaciones;");
   $result -> execute();
   $dataCollected = $result -> fetchAll();
   ?>
 
-  <form align="center" action="consultas/consulta_tipo.php" method="post">
+  <form align="center" action="consultas/consulta3.php" method="post">
     Seleccinar un tipo:
     <select name="tipo">
       <?php
