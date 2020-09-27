@@ -66,6 +66,5 @@
   Año:
   <input type="number" name="año">
 
-
-  <p><input type="submit" name="respuesta" value="ir"></p>
+  <input type="submit" name="respuesta" value="buscar">
 </form>
