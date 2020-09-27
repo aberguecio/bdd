@@ -62,6 +62,6 @@
 <form align="center" action="consultas/consulta6.php" method="post">
   <p>Consulta 6</p>
   mes
-  <input type="text" name="mes">
+  <input type="number" name="mes">
   <p><input type="submit" name="respuesta" value="ir"></p>
 </form>
