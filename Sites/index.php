@@ -63,5 +63,8 @@
   <p>Consulta 6</p>
   mes
   <input type="number" name="mes">
+  <input type="number" name="año">
+
+
   <p><input type="submit" name="respuesta" value="ir"></p>
 </form>
