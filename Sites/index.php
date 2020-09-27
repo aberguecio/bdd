@@ -61,8 +61,9 @@
 
 <form align="center" action="consultas/consulta6.php" method="post">
   <p>Consulta 6</p>
-  mes
+  Mes:
   <input type="number" name="mes">
+  Año:
   <input type="number" name="año">
 
 
