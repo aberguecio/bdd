@@ -54,15 +54,14 @@
   </form>
 
 
-
-  
-
-
-<form action="consultas/consulta5.php" method="get">
+<form align="center" action="consultas/consulta5.php" method="get">
   <p>Consulta 5</p>
   <p><input type="submit" name="respuesta" value="ir"></p>
 </form>
-<form action="consultas/consulta6.php" method="get">
+
+<form align="center" action="consultas/consulta6.php" method="get">
   <p>Consulta 6</p>
+  mes
+  <input type="text" name="mes">
   <p><input type="submit" name="respuesta" value="ir"></p>
 </form>

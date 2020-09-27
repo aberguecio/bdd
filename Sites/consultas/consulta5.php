@@ -1,10 +1,7 @@
 <?php
-  $user = 'grupo97';
-  $password = 'langosta';
-  $databaseName = 'grupo97e2';
-  $db = new PDO("pgsql:dbname=$databaseName;host=localhost;port=5432;user=$user;password=$password");
+  require("../config/conexion.php");
 
-  $query_string = "";
+  $query_string = "SELECT nombre_puerto, AVG(edad) AS edad_promedio  FROM Instalaciones, (SELECT * FROM Personal ORDER BY Personal.id_instalacion) as foo WHERE Instalaciones.id_instalacion = foo.id_instalacion GROUP BY nombre_puerto;";
   $query = $db -> prepare($query_string);
   $query -> execute();
   $result = $query -> fetchAll();
