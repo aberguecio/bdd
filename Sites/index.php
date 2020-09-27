@@ -3,7 +3,7 @@
 ?>
 
 
-<form align="center" action="consultas/consulta1.php" method="get">
+<form align="center" action="consultas/consulta1.php" method="post">
   Consulta 1
   <input type="submit" name="respuesta" value="ir">
 </form>
@@ -54,12 +54,12 @@
   </form>
 
 
-<form align="center" action="consultas/consulta5.php" method="get">
+<form align="center" action="consultas/consulta5.php" method="post">
   <p>Consulta 5</p>
   <p><input type="submit" name="respuesta" value="ir"></p>
 </form>
 
-<form align="center" action="consultas/consulta6.php" method="get">
+<form align="center" action="consultas/consulta6.php" method="post">
   <p>Consulta 6</p>
   mes
   <input type="text" name="mes">
