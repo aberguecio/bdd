@@ -21,13 +21,7 @@ th, td {
 }
 </style>
 
-  <div class="col-lg-3 col-6 text-center">"
-            <span data-toggle="counter-up"><?php $r[0] ?></span>"
-            <p>Projects</p>"
-  </div>"
-
-
-<table>
+ <table>
   <?php
     foreach ($result as $r) {
       echo "<tr><td>$r[0]</td></tr>";
