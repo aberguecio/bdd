@@ -5,7 +5,7 @@
 
 <form align="center" action="consultas/consulta1.php" method="post">
   Muestre todos los puertos junto la ciudad a la que son asignados.
-  <input type="submit" name="respuesta" value="ir">
+  <input type="submit" name="respuesta" value="Buscar">
 </form>
 
 <form align="center" action="consultas/consulta2.php" method="post">
@@ -29,7 +29,7 @@
       }
       ?>
     </select>
-    <input type="submit" value="Buscar por tipo">
+    <input type="submit" value="Buscar">
   </form>
 
 
@@ -56,11 +56,11 @@
 
 <form align="center" action="consultas/consulta5.php" method="post">
  Muestre la edad promedio de los trabajadores de cada puerto 
-  <input type="submit" name="respuesta" value="ir">
+  <input type="submit" name="respuesta" value="Buscar">
 </form>
 
 <form align="center" action="consultas/consulta6.php" method="post">
-Muestre el puerto que ha recibido m´as barcos en 
+Muestre el puerto que ha recibido más barcos en 
   Mes:
   <input type="number" name="mes">
   Año:
