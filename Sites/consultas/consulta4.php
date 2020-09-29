@@ -20,12 +20,12 @@ th, td {
   padding: 15px;
 }
 </style>
-<?php
-  "<div class="col-lg-3 col-6 text-center">"
-            "<span data-toggle="counter-up">$r[0]</span>"
-            "<p>Projects</p>"
-  "</div>"
-?>
+
+  <div class="col-lg-3 col-6 text-center">"
+            <span data-toggle="counter-up"><?php $r[0] ?></span>"
+            <p>Projects</p>"
+  </div>"
+
 
 <table>
   <?php
