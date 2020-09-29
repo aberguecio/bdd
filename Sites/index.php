@@ -31,6 +31,78 @@
 </head>
 
 
+<body>
+
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header">
+    <div class="container">
+
+      <div id="logo" class="pull-left">
+        <h1><a href="#hero">BDD</a></h1>
+      </div>
+
+      
+    </div>
+  </header><!-- #header -->
+
+  <!--==========================
+    Hero Section
+  ============================-->
+  <section id="hero">
+    <div class="hero-container">
+      <h1>Welcome to Regna</h1>
+      <h2>We are team of talanted designers making websites with Bootstrap</h2>
+      <a href="#about" action="index.php" class="btn-get-started">Get Started</a> 
+    </div>
+  </section><!-- #hero -->
+
+  <main id="main">
+
+    
+
+    <!--==========================
+      Team Section
+    ============================-->
+    <section id="team">
+      <div class="container wow fadeInUp">
+        <div class="section-header">
+          <h3 class="section-title">Team</h3>
+          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+        </div>
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/team-1.jpg" alt=""></div>
+              <h4>Walter White</h4>
+              <span>Chief Executive Officer</span>
+
+              </div>
+            </div>
+          </div>
+
+          
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member">
+              <div class="pic"><img src="img/team-4.jpg" alt=""></div>
+              <h4>Amanda Jepson</h4>
+              <span>Accountant</span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #team -->
+
+
+</body>
+</html>
+
 <form align="center" action="consultas/consulta1.php" method="post">
   Muestre todos los puertos junto la ciudad a la que son asignados.
   <input type="submit" name="respuesta" value="Buscar">
