@@ -4,12 +4,12 @@
 
 
 <form align="center" action="consultas/consulta1.php" method="post">
-  Consulta 1
+  Muestre todos los puertos junto la ciudad a la que son asignados.
   <input type="submit" name="respuesta" value="ir">
 </form>
 
 <form align="center" action="consultas/consulta2.php" method="post">
-    Nombre:
+  Muestre todos los jefes de las instalaciones del puerto con nombre:
     <input type="text" name="nombre_puerto">
     <input type="submit" value="Buscar">
 </form>
@@ -21,7 +21,7 @@
   $dataCollected = $result -> fetchAll();
   ?>
   <form align="center" action="consultas/consulta3.php" method="post">
-    Seleccinar un tipo:
+  Muestre todos los puertos que tienen al menos un:
     <select name="tipo">
       <?php
       foreach ($dataCollected as $d) {
@@ -40,7 +40,7 @@
   $datapuertos = $result -> fetchAll();
   ?>
   <form align="center" action="consultas/consulta4.php" method="post">
-    Seleccina una Ciudad:
+  Muestre todas las veces que ha atracado en:
     <select name="puerto">
       <?php
       foreach ($datapuertos as $d) {
@@ -48,19 +48,19 @@
       }
       ?>
     </select>
-    y escribe el nombre del Barco:
+    el barco:
     <input type="text" name="barco">
     <input type="submit" value="Buscar">
   </form>
 
 
 <form align="center" action="consultas/consulta5.php" method="post">
-  <p>Consulta 5</p>
-  <p><input type="submit" name="respuesta" value="ir"></p>
+ Muestre la edad promedio de los trabajadores de cada puerto 
+  <input type="submit" name="respuesta" value="ir">
 </form>
 
 <form align="center" action="consultas/consulta6.php" method="post">
-  <p>Consulta 6</p>
+Muestre el puerto que ha recibido m´as barcos en 
   Mes:
   <input type="number" name="mes">
   Año:
