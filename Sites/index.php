@@ -52,7 +52,8 @@
     <div class="hero-container">
       <h1>Welcome to Regna</h1>
       <h2>We are team of talanted designers making websites with Bootstrap</h2>
-      <a href="#about" action="index2.php" class="btn-get-started">Get Started</a> 
+      <a href="#about" action="index2.php" class="btn-get-started" type="submit" value="Buscar">Get Started</a> 
+
     </div>
   </section><!-- #hero -->
 
