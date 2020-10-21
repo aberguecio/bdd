@@ -17,7 +17,7 @@
 
   foreach ($result as $r)  {
     print "$numero_pasaporte = $r";
-    if ($numero_pasaporte = $r){
+    if ($numero_pasaporte = $r[0]){
       $confirmador = FALSE;
     }
   }
