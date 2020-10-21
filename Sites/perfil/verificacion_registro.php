@@ -17,8 +17,8 @@
 
 
   foreach ($result as $r)  {
-    $ultimo = $r;
-    if ($numero_pasaporte == $r){
+    $ultimo = $r[0];
+    if ($numero_pasaporte == $r[0]){
       $confirmador = FALSE;
     }
   }
