@@ -16,6 +16,7 @@
   $result = $query -> fetchAll();
 
   foreach ($result as $r)  {
+    echo "$numero_pasaporte = $r";
     if ($numero_pasaporte = $r){
       $confirmador = FALSE;
     }
