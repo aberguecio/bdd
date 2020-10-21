@@ -10,7 +10,7 @@
   $nacionalidad = $_POST["nacionalidad"];
   $contraseña = $_POST["contraseña"];
 
-  $query_string = "SELECT numero_pasaporte FROM Puertos;";
+  $query_string = "SELECT numero_pasaporte FROM Usuarios;";
   $query = $db -> prepare($query_string);
   $query -> execute();
   $result = $query -> fetchAll();
