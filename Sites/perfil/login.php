@@ -1,5 +1,5 @@
 <?php
-  require("config/conexion.php");
+  require("../config/conexion.php");
 ?>
 
 <form align="center" action="consultas.php" method="post">

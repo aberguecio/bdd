@@ -2,7 +2,7 @@
   require("config/conexion.php");
 ?>
 
-<form align="center" action="verificacion.php" method="post">
+<form align="center" action="verificacion_registro.php" method="post">
   Rellene los datos para registrarse:<br>
     Nombre:<input type="text" name="nombre"><br>
     Edad:<input type="number" name="edad"><br>
