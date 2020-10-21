@@ -16,7 +16,6 @@
   $result = $query -> fetchAll();
 
   foreach ($result as $r)  {
-    print "$numero_pasaporte = $r";
     if ($numero_pasaporte = $r[0]){
       $confirmador = FALSE;
     }
@@ -26,10 +25,10 @@
     $query = $db -> prepare($query_string);
     $query -> execute();
     $result = $query -> fetchAll();
-    echo "listo, $confirmador";
+    echo "listo, $confirmador, $numero_pasaporte = $r ";
   }
   else {
-    echo "ya existe, $confirmador";
+    echo "ya existe, $confirmador, $numero_pasaporte = $r";
   }
   ?>
 
