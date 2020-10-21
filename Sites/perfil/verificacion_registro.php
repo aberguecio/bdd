@@ -25,10 +25,10 @@
     $query = $db -> prepare($query_string);
     $query -> execute();
     $result = $query -> fetchAll();
-    echo "listo";
+    echo "listo, $confirmador";
   }
   else {
-    echo "ya existe";
+    echo "ya existe, $confirmador";
   }
   ?>
 
