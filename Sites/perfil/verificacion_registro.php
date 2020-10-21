@@ -14,7 +14,8 @@
   $query = $db -> prepare($query_string);
   $query -> execute();
   $result = $query -> fetchAll();
-  $ultimo = $result;
+  // $ultimo = $result;
+  
   foreach ($result as $r)  {
     $ultimo = $r;
     if ($numero_pasaporte = $r){
