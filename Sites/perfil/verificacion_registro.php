@@ -16,6 +16,7 @@
   $result = $query -> fetchAll();
   $ultimo = $result;
   foreach ($result as $r)  {
+    $ultimo = $r;
     if ($numero_pasaporte = $r){
       $ultimo = $r;
       $confirmador = FALSE;
