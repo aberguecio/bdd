@@ -3,8 +3,8 @@
 ?>
 
 <form align="center" action="consultas.php" method="post">
-  Muestre todos los jefes de las instalaciones del puerto con nombre:
-    <input type="text" name="pasaporte">
-    <input type="text" name="contraseña">
+  Rellene los datos para ingresar:
+    Numero Pasaporte:<input type="text" name="pasaporte"><br>
+    Contraseña:<input type="text" name="contraseña"><br>
     <input type="submit" value="ingresar">
 </form>
