@@ -9,11 +9,19 @@
   $result = $query -> fetchAll();
 ?>
 
-
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+}
+</style>
 <table>
   <?php
     foreach ($result as $r) {
-      echo "<tr><td>$r[0]</td><</tr>";
+      echo "<tr><td>$r[0]</td></tr>";
     }
   ?>
 </table>
